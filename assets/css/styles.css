@@ -1026,8 +1026,9 @@ textarea {
 /* For medium devices */
 
 @media screen and (min-width: 568px) {
+
     .services__modal-content {
-        max-width: 14rem;
+        max-width: 30rem;
     }
 
     .home__content {
@@ -1069,6 +1070,11 @@ textarea {
 }
 
 @media screen and (min-width: 768px ) {
+
+    .services__modal-content {
+        max-width: 35rem;
+    }
+
     .container {
         margin-left: auto;
         margin-right: auto;
